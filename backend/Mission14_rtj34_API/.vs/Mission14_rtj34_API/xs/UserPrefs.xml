@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{D3EBDBE5-AE51-4B39-9164-492AA74DF77A}|api">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission14_rtj34_API/Data/MovieContext.cs">
+    <Files>
+      <File FileName="Mission14_rtj34_API/appsettings.Development.json" />
+      <File FileName="Mission14_rtj34_API/appsettings.json" Line="10" Column="73" />
+      <File FileName="Mission14_rtj34_API/Properties/launchSettings.json" />
+      <File FileName="Mission14_rtj34_API/MovieDbContext.cs" />
+      <File FileName="Mission14_rtj34_API/Program.cs" Line="9" Column="31" />
+      <File FileName="Mission14_rtj34_API/WeatherForecast.cs" />
+      <File FileName="Mission14_rtj34_API/Data/IMovieRepo.cs" Line="6" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission14_rtj34_API" expanded="True">
+            <Node name="Mission14_rtj34_API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+              <Node name="JoelHiltonMovieCollection.sqlite" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Mission14__rtj34__API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
