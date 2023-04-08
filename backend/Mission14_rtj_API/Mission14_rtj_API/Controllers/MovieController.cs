@@ -4,6 +4,7 @@ using Mission14_rtj_API.Models;
 
 namespace Mission14_rtj_API.Controllers
 {
+    //Creating the API controller for the Movie Class
     [ApiController]
     [Route("[controller]")]
     public class MovieController : Controller
@@ -17,8 +18,9 @@ namespace Mission14_rtj_API.Controllers
 
         public IEnumerable<Movie> Get()
         {
+            //Edits the data to only show movies that have been edited
+            //Also orders them by title
             return context.Movies
-               //Filter movies shown
                .Where(m => m.Edited == "Yes")
                .OrderBy(m => m.Title)
                .ToArray();

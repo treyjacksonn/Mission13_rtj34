@@ -5,6 +5,7 @@ namespace Mission14_rtj_API.Models
 {
 	public class Movie
 	{
+        //Creating model based off of database
         [Key]
         public int MovieId { get; set; }
         public string? Category { get; set; }

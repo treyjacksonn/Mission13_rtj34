@@ -1,9 +1,22 @@
-import data from '../MovieData.json';
+import { useEffect, useState } from 'react';
+//importing React model
+import { Movies } from './movie';
 
-const MDS = data.MovieData;
-
-// MovieList function to display all of the data from the MovieData.json file
 function MovieList() {
+  const [MovieData, setMovieData] = useState<Movies[]>([]);
+
+  useEffect(() => {
+    //Getting the data from the API
+    const fetchMovie = async () => {
+      const rsp = await fetch('https://localhost:4000/movie');
+      const temp = await rsp.json();
+      setMovieData(temp);
+    };
+
+    fetchMovie();
+  }, []);
+
+  // The data is then mapped and displayed in the return statement below
   return (
     <>
       <div>
@@ -16,20 +29,20 @@ function MovieList() {
               <th>Title</th>
               <th>Year</th>
               <th>Director</th>
-              <th>Rating</th>
-              <th>Category</th>
               <th>Edited</th>
+              <th>Lent To</th>
+              <th>Notes</th>
             </tr>
           </thead>
           <tbody>
-            {MDS.map((m) => (
-              <tr>
-                <td>{m.Title}</td>
-                <td>{m.Year}</td>
-                <td>{m.Director}</td>
-                <td>{m.Rating}</td>
-                <td>{m.Category}</td>
-                <td>{m.Edited}</td>
+            {MovieData.map((m) => (
+              <tr key={m.movieId}>
+                <td>{m.title}</td>
+                <td>{m.year}</td>
+                <td>{m.director}</td>
+                <td>{m.edited}</td>
+                <td>{m.lentTo}</td>
+                <td>{m.notes}</td>
               </tr>
             ))}
           </tbody>
