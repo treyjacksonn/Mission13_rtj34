@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{69D9F293-DEA5-4BD9-A6FD-F36B0FA6D1F4}|api">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Mission14__rtj__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission14_rtj_API/Program.cs">
+    <Files>
+      <File FileName="Mission14_rtj_API/appsettings.json" Line="10" Column="23" />
+      <File FileName="Mission14_rtj_API/Properties/launchSettings.json" Line="15" Column="2" />
+      <File FileName="Mission14_rtj_API/Models/Movie.cs" Line="1" Column="1" />
+      <File FileName="Mission14_rtj_API/Models/MovieDbContext.cs" Line="12" Column="41" />
+      <File FileName="Mission14_rtj_API/Program.cs" Line="12" Column="11" />
+      <File FileName="Mission14_rtj_API/WeatherForecast.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission14_rtj_API" expanded="True">
+            <Node name="Mission14_rtj_API" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
